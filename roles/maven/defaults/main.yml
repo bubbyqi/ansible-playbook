@@ -1,0 +1,9 @@
+---
+# defaults file for apache-maven
+maven_major: 3
+maven_version: 3.6.1
+maven_home_parent_directory: /opt
+maven_file_name: apache-maven-{{ maven_version }}-bin.tar.gz
+maven_download_url: 'http://192.180.51.180/{{ maven_file_name }}'
+maven_download_username: ''
+maven_download_password: ''
